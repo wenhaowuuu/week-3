@@ -53,6 +53,7 @@ console.log('isOdd success:', isOdd(4) === false);
 
 /* =====================
 Instructions: Write a function that takes a list of numbers and returns a list with only numbers above 10
+NOTE: We expect an error until this function is written properly!
 ===================== */
 
 var filterOutLessThan10 = function() {
