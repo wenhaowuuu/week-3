@@ -58,7 +58,8 @@ Instructions: Write a function that takes a list of numbers and returns a list w
 var filterOutLessThan10 = function() {
 };
 
-console.log('filterOutLessThan10 success:', filterOutLessThan10([4, 11]) === [11]);
+var test = filterOutLessThan10([4, 11]).length === 1 && filterOutLessThan10([4, 11])[0] === 11;
+console.log('filterOutLessThan10 success:', test)
 
 /* =====================
 Stretch goal — NOT required
@@ -71,4 +72,3 @@ var filter = function(array, func) {
 };
 
 console.log('filter success:', filter([4, 11], isOdd) === [11]);
-
